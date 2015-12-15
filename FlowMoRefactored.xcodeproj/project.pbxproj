@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C9503A1C1FB54C0025A9CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C950391C1FB54C0025A9CC /* AppDelegate.swift */; };
+		00C9503C1C1FB54C0025A9CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C9503B1C1FB54C0025A9CC /* ViewController.swift */; };
+		00C9503F1C1FB54C0025A9CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C9503D1C1FB54C0025A9CC /* Main.storyboard */; };
+		00C950421C1FB54C0025A9CC /* FlowMoRefactored.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00C950401C1FB54C0025A9CC /* FlowMoRefactored.xcdatamodeld */; };
+		00C950441C1FB54C0025A9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C950431C1FB54C0025A9CC /* Assets.xcassets */; };
+		00C950471C1FB54C0025A9CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C950451C1FB54C0025A9CC /* LaunchScreen.storyboard */; };
+		00C950521C1FB54C0025A9CC /* FlowMoRefactoredTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C950511C1FB54C0025A9CC /* FlowMoRefactoredTests.swift */; };
+		00C9505D1C1FB54C0025A9CC /* FlowMoRefactoredUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C9505C1C1FB54C0025A9CC /* FlowMoRefactoredUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00C9504E1C1FB54C0025A9CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C9502E1C1FB54B0025A9CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00C950351C1FB54B0025A9CC;
+			remoteInfo = FlowMoRefactored;
+		};
+		00C950591C1FB54C0025A9CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C9502E1C1FB54B0025A9CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00C950351C1FB54B0025A9CC;
+			remoteInfo = FlowMoRefactored;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C950361C1FB54B0025A9CC /* FlowMoRefactored.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowMoRefactored.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C950391C1FB54C0025A9CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00C9503B1C1FB54C0025A9CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00C9503E1C1FB54C0025A9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00C950411C1FB54C0025A9CC /* FlowMoRefactored.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlowMoRefactored.xcdatamodel; sourceTree = "<group>"; };
+		00C950431C1FB54C0025A9CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00C950461C1FB54C0025A9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00C950481C1FB54C0025A9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C9504D1C1FB54C0025A9CC /* FlowMoRefactoredTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowMoRefactoredTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C950511C1FB54C0025A9CC /* FlowMoRefactoredTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowMoRefactoredTests.swift; sourceTree = "<group>"; };
+		00C950531C1FB54C0025A9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C950581C1FB54C0025A9CC /* FlowMoRefactoredUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowMoRefactoredUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C9505C1C1FB54C0025A9CC /* FlowMoRefactoredUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowMoRefactoredUITests.swift; sourceTree = "<group>"; };
+		00C9505E1C1FB54C0025A9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00C950331C1FB54B0025A9CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C9504A1C1FB54C0025A9CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C950551C1FB54C0025A9CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C9502D1C1FB54B0025A9CC = {
+			isa = PBXGroup;
+			children = (
+				00C950381C1FB54B0025A9CC /* FlowMoRefactored */,
+				00C950501C1FB54C0025A9CC /* FlowMoRefactoredTests */,
+				00C9505B1C1FB54C0025A9CC /* FlowMoRefactoredUITests */,
+				00C950371C1FB54B0025A9CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00C950371C1FB54B0025A9CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C950361C1FB54B0025A9CC /* FlowMoRefactored.app */,
+				00C9504D1C1FB54C0025A9CC /* FlowMoRefactoredTests.xctest */,
+				00C950581C1FB54C0025A9CC /* FlowMoRefactoredUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C950381C1FB54B0025A9CC /* FlowMoRefactored */ = {
+			isa = PBXGroup;
+			children = (
+				00C950391C1FB54C0025A9CC /* AppDelegate.swift */,
+				00C9503B1C1FB54C0025A9CC /* ViewController.swift */,
+				00C9503D1C1FB54C0025A9CC /* Main.storyboard */,
+				00C950431C1FB54C0025A9CC /* Assets.xcassets */,
+				00C950451C1FB54C0025A9CC /* LaunchScreen.storyboard */,
+				00C950481C1FB54C0025A9CC /* Info.plist */,
+				00C950401C1FB54C0025A9CC /* FlowMoRefactored.xcdatamodeld */,
+			);
+			path = FlowMoRefactored;
+			sourceTree = "<group>";
+		};
+		00C950501C1FB54C0025A9CC /* FlowMoRefactoredTests */ = {
+			isa = PBXGroup;
+			children = (
+				00C950511C1FB54C0025A9CC /* FlowMoRefactoredTests.swift */,
+				00C950531C1FB54C0025A9CC /* Info.plist */,
+			);
+			path = FlowMoRefactoredTests;
+			sourceTree = "<group>";
+		};
+		00C9505B1C1FB54C0025A9CC /* FlowMoRefactoredUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00C9505C1C1FB54C0025A9CC /* FlowMoRefactoredUITests.swift */,
+				00C9505E1C1FB54C0025A9CC /* Info.plist */,
+			);
+			path = FlowMoRefactoredUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00C950351C1FB54B0025A9CC /* FlowMoRefactored */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C950611C1FB54C0025A9CC /* Build configuration list for PBXNativeTarget "FlowMoRefactored" */;
+			buildPhases = (
+				00C950321C1FB54B0025A9CC /* Sources */,
+				00C950331C1FB54B0025A9CC /* Frameworks */,
+				00C950341C1FB54B0025A9CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowMoRefactored;
+			productName = FlowMoRefactored;
+			productReference = 00C950361C1FB54B0025A9CC /* FlowMoRefactored.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00C9504C1C1FB54C0025A9CC /* FlowMoRefactoredTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C950641C1FB54C0025A9CC /* Build configuration list for PBXNativeTarget "FlowMoRefactoredTests" */;
+			buildPhases = (
+				00C950491C1FB54C0025A9CC /* Sources */,
+				00C9504A1C1FB54C0025A9CC /* Frameworks */,
+				00C9504B1C1FB54C0025A9CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00C9504F1C1FB54C0025A9CC /* PBXTargetDependency */,
+			);
+			name = FlowMoRefactoredTests;
+			productName = FlowMoRefactoredTests;
+			productReference = 00C9504D1C1FB54C0025A9CC /* FlowMoRefactoredTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00C950571C1FB54C0025A9CC /* FlowMoRefactoredUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C950671C1FB54C0025A9CC /* Build configuration list for PBXNativeTarget "FlowMoRefactoredUITests" */;
+			buildPhases = (
+				00C950541C1FB54C0025A9CC /* Sources */,
+				00C950551C1FB54C0025A9CC /* Frameworks */,
+				00C950561C1FB54C0025A9CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00C9505A1C1FB54C0025A9CC /* PBXTargetDependency */,
+			);
+			name = FlowMoRefactoredUITests;
+			productName = FlowMoRefactoredUITests;
+			productReference = 00C950581C1FB54C0025A9CC /* FlowMoRefactoredUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00C9502E1C1FB54B0025A9CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Conor Carey";
+				TargetAttributes = {
+					00C950351C1FB54B0025A9CC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					00C9504C1C1FB54C0025A9CC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 00C950351C1FB54B0025A9CC;
+					};
+					00C950571C1FB54C0025A9CC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 00C950351C1FB54B0025A9CC;
+					};
+				};
+			};
+			buildConfigurationList = 00C950311C1FB54B0025A9CC /* Build configuration list for PBXProject "FlowMoRefactored" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00C9502D1C1FB54B0025A9CC;
+			productRefGroup = 00C950371C1FB54B0025A9CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00C950351C1FB54B0025A9CC /* FlowMoRefactored */,
+				00C9504C1C1FB54C0025A9CC /* FlowMoRefactoredTests */,
+				00C950571C1FB54C0025A9CC /* FlowMoRefactoredUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00C950341C1FB54B0025A9CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C950471C1FB54C0025A9CC /* LaunchScreen.storyboard in Resources */,
+				00C950441C1FB54C0025A9CC /* Assets.xcassets in Resources */,
+				00C9503F1C1FB54C0025A9CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C9504B1C1FB54C0025A9CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C950561C1FB54C0025A9CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00C950321C1FB54B0025A9CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C9503C1C1FB54C0025A9CC /* ViewController.swift in Sources */,
+				00C950421C1FB54C0025A9CC /* FlowMoRefactored.xcdatamodeld in Sources */,
+				00C9503A1C1FB54C0025A9CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C950491C1FB54C0025A9CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C950521C1FB54C0025A9CC /* FlowMoRefactoredTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C950541C1FB54C0025A9CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C9505D1C1FB54C0025A9CC /* FlowMoRefactoredUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00C9504F1C1FB54C0025A9CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00C950351C1FB54B0025A9CC /* FlowMoRefactored */;
+			targetProxy = 00C9504E1C1FB54C0025A9CC /* PBXContainerItemProxy */;
+		};
+		00C9505A1C1FB54C0025A9CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00C950351C1FB54B0025A9CC /* FlowMoRefactored */;
+			targetProxy = 00C950591C1FB54C0025A9CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00C9503D1C1FB54C0025A9CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00C9503E1C1FB54C0025A9CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00C950451C1FB54C0025A9CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00C950461C1FB54C0025A9CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00C9505F1C1FB54C0025A9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00C950601C1FB54C0025A9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00C950621C1FB54C0025A9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlowMoRefactored/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Carey.FlowMoRefactored;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00C950631C1FB54C0025A9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlowMoRefactored/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Carey.FlowMoRefactored;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		00C950651C1FB54C0025A9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlowMoRefactoredTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Carey.FlowMoRefactoredTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowMoRefactored.app/FlowMoRefactored";
+			};
+			name = Debug;
+		};
+		00C950661C1FB54C0025A9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlowMoRefactoredTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Carey.FlowMoRefactoredTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowMoRefactored.app/FlowMoRefactored";
+			};
+			name = Release;
+		};
+		00C950681C1FB54C0025A9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlowMoRefactoredUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Carey.FlowMoRefactoredUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlowMoRefactored;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		00C950691C1FB54C0025A9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlowMoRefactoredUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Carey.FlowMoRefactoredUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlowMoRefactored;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00C950311C1FB54B0025A9CC /* Build configuration list for PBXProject "FlowMoRefactored" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C9505F1C1FB54C0025A9CC /* Debug */,
+				00C950601C1FB54C0025A9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00C950611C1FB54C0025A9CC /* Build configuration list for PBXNativeTarget "FlowMoRefactored" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C950621C1FB54C0025A9CC /* Debug */,
+				00C950631C1FB54C0025A9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00C950641C1FB54C0025A9CC /* Build configuration list for PBXNativeTarget "FlowMoRefactoredTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C950651C1FB54C0025A9CC /* Debug */,
+				00C950661C1FB54C0025A9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00C950671C1FB54C0025A9CC /* Build configuration list for PBXNativeTarget "FlowMoRefactoredUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C950681C1FB54C0025A9CC /* Debug */,
+				00C950691C1FB54C0025A9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00C950401C1FB54C0025A9CC /* FlowMoRefactored.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00C950411C1FB54C0025A9CC /* FlowMoRefactored.xcdatamodel */,
+			);
+			currentVersion = 00C950411C1FB54C0025A9CC /* FlowMoRefactored.xcdatamodel */;
+			path = FlowMoRefactored.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00C9502E1C1FB54B0025A9CC /* Project object */;
+}
