@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		00C9503A1C1FB54C0025A9CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C950391C1FB54C0025A9CC /* AppDelegate.swift */; };
-		00C9503C1C1FB54C0025A9CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C9503B1C1FB54C0025A9CC /* ViewController.swift */; };
+		00C9503C1C1FB54C0025A9CC /* FlowMoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C9503B1C1FB54C0025A9CC /* FlowMoController.swift */; };
 		00C9503F1C1FB54C0025A9CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C9503D1C1FB54C0025A9CC /* Main.storyboard */; };
-		00C950421C1FB54C0025A9CC /* FlowMoRefactored.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00C950401C1FB54C0025A9CC /* FlowMoRefactored.xcdatamodeld */; };
 		00C950441C1FB54C0025A9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C950431C1FB54C0025A9CC /* Assets.xcassets */; };
 		00C950471C1FB54C0025A9CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C950451C1FB54C0025A9CC /* LaunchScreen.storyboard */; };
 		00C950521C1FB54C0025A9CC /* FlowMoRefactoredTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C950511C1FB54C0025A9CC /* FlowMoRefactoredTests.swift */; };
 		00C9505D1C1FB54C0025A9CC /* FlowMoRefactoredUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C9505C1C1FB54C0025A9CC /* FlowMoRefactoredUITests.swift */; };
+		00C9506C1C2056F60025A9CC /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00C9506A1C2056F60025A9CC /* Model.xcdatamodeld */; };
+		00C950711C2059B40025A9CC /* FlowMo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C950701C2059B40025A9CC /* FlowMo.swift */; };
+		00C950731C205A6B0025A9CC /* FlowMoViewCam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C950721C205A6B0025A9CC /* FlowMoViewCam.swift */; };
+		00C950751C205A7B0025A9CC /* FlowMoViewEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C950741C205A7B0025A9CC /* FlowMoViewEdit.swift */; };
+		00C950781C205E8B0025A9CC /* FlowMoEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C950771C205E8B0025A9CC /* FlowMoEditController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +41,8 @@
 /* Begin PBXFileReference section */
 		00C950361C1FB54B0025A9CC /* FlowMoRefactored.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowMoRefactored.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C950391C1FB54C0025A9CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00C9503B1C1FB54C0025A9CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00C9503B1C1FB54C0025A9CC /* FlowMoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowMoController.swift; sourceTree = "<group>"; };
 		00C9503E1C1FB54C0025A9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		00C950411C1FB54C0025A9CC /* FlowMoRefactored.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlowMoRefactored.xcdatamodel; sourceTree = "<group>"; };
 		00C950431C1FB54C0025A9CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00C950461C1FB54C0025A9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00C950481C1FB54C0025A9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		00C950581C1FB54C0025A9CC /* FlowMoRefactoredUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowMoRefactoredUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C9505C1C1FB54C0025A9CC /* FlowMoRefactoredUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowMoRefactoredUITests.swift; sourceTree = "<group>"; };
 		00C9505E1C1FB54C0025A9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C9506B1C2056F60025A9CC /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		00C950701C2059B40025A9CC /* FlowMo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowMo.swift; sourceTree = "<group>"; };
+		00C950721C205A6B0025A9CC /* FlowMoViewCam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowMoViewCam.swift; sourceTree = "<group>"; };
+		00C950741C205A7B0025A9CC /* FlowMoViewEdit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowMoViewEdit.swift; sourceTree = "<group>"; };
+		00C950771C205E8B0025A9CC /* FlowMoEditController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowMoEditController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +108,14 @@
 			isa = PBXGroup;
 			children = (
 				00C950391C1FB54C0025A9CC /* AppDelegate.swift */,
-				00C9503B1C1FB54C0025A9CC /* ViewController.swift */,
+				00C9506F1C2058C90025A9CC /* Controller */,
+				00C9506E1C20589E0025A9CC /* Model */,
+				00C950761C205A820025A9CC /* View */,
 				00C9503D1C1FB54C0025A9CC /* Main.storyboard */,
 				00C950431C1FB54C0025A9CC /* Assets.xcassets */,
 				00C950451C1FB54C0025A9CC /* LaunchScreen.storyboard */,
 				00C950481C1FB54C0025A9CC /* Info.plist */,
-				00C950401C1FB54C0025A9CC /* FlowMoRefactored.xcdatamodeld */,
+				00C9506A1C2056F60025A9CC /* Model.xcdatamodeld */,
 			);
 			path = FlowMoRefactored;
 			sourceTree = "<group>";
@@ -126,6 +136,32 @@
 				00C9505E1C1FB54C0025A9CC /* Info.plist */,
 			);
 			path = FlowMoRefactoredUITests;
+			sourceTree = "<group>";
+		};
+		00C9506E1C20589E0025A9CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00C950701C2059B40025A9CC /* FlowMo.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		00C9506F1C2058C90025A9CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00C9503B1C1FB54C0025A9CC /* FlowMoController.swift */,
+				00C950771C205E8B0025A9CC /* FlowMoEditController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		00C950761C205A820025A9CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00C950721C205A6B0025A9CC /* FlowMoViewCam.swift */,
+				00C950741C205A7B0025A9CC /* FlowMoViewEdit.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C9503C1C1FB54C0025A9CC /* ViewController.swift in Sources */,
-				00C950421C1FB54C0025A9CC /* FlowMoRefactored.xcdatamodeld in Sources */,
+				00C9503C1C1FB54C0025A9CC /* FlowMoController.swift in Sources */,
+				00C950781C205E8B0025A9CC /* FlowMoEditController.swift in Sources */,
 				00C9503A1C1FB54C0025A9CC /* AppDelegate.swift in Sources */,
+				00C950751C205A7B0025A9CC /* FlowMoViewEdit.swift in Sources */,
+				00C950731C205A6B0025A9CC /* FlowMoViewCam.swift in Sources */,
+				00C9506C1C2056F60025A9CC /* Model.xcdatamodeld in Sources */,
+				00C950711C2059B40025A9CC /* FlowMo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,13 +546,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		00C950401C1FB54C0025A9CC /* FlowMoRefactored.xcdatamodeld */ = {
+		00C9506A1C2056F60025A9CC /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				00C950411C1FB54C0025A9CC /* FlowMoRefactored.xcdatamodel */,
+				00C9506B1C2056F60025A9CC /* Model.xcdatamodel */,
 			);
-			currentVersion = 00C950411C1FB54C0025A9CC /* FlowMoRefactored.xcdatamodel */;
-			path = FlowMoRefactored.xcdatamodeld;
+			currentVersion = 00C9506B1C2056F60025A9CC /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
